@@ -33,7 +33,11 @@ section {
 }
 
 #page1 {
-    background-color: lightblue; /* Color for Page 1 */
+    background-image: url('images/background1.png');
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No image repetition */
+    color: white; /* Make text white to contrast with the image */
     width: 100%; 
     transform: translateY(0);
     
